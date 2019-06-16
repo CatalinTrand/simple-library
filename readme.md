@@ -11,7 +11,7 @@ Dupa ce s-a downloadat tot proiectul, se ruleaza:<br>
 	- <b>php artisan migrate:fresh</b><br>
 	- <b>php artisan db:seed</b><br>
 	
-Apoi, in <b>Controllers/BookController</b>, in functia <b>getOrigin()</b>, se va edita acel path in concordanta cu path-ul /public al serverului celui care testeaza, sa nu uitati de extensia de la final <b>/images</b>
+Apoi, in <b>Controllers/BookController</b>, in functia <b>getOrigin()</b>, se va edita acel path in concordanta cu path-ul /public al serverului celui care testeaza, sa nu uitati de extensia de la final <b>/images</b><br>
 La final, se editeaza in <b>resources/js/helpers/index.js</b> variabila <b>serverName</b> in functie de adresa pe care va fi configurat serverul.
 
 ## Rularea proiectului
